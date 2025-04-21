@@ -24,6 +24,11 @@ body{
     background-color: #faf7f7;
     border-radius: 12px;
     box-shadow: 5 5 15 #0000001a;
+    display: none;
+}
+
+.form-box.active{
+    display: block;
 }
 
 .form-box h2{
@@ -60,7 +65,7 @@ body{
     margin-bottom: 15px;
     color: rgb(241, 230, 230);
     cursor: pointer;
-    transition: 0.5;
+    transition: 0.5s;
 }
 
 .form-box button:hover{
